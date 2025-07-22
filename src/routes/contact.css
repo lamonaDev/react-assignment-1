@@ -1,0 +1,35 @@
+#contact {
+    height: 100vh;
+}
+#icon-holder {
+    background: transparent;
+    border: none;
+}
+.teal-label {
+    color: #000000;
+}
+.input-bottom-border {
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    background: transparent;
+    padding: 0.2rem 0.4rem;
+    transition: all 0.3s ease;
+}
+
+.input-bottom-border:hover {
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.teal-button {
+    background-color: rgb(139, 130, 115);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.input-bottom-border::placeholder {
+    color: rgba(0, 0, 0, 0);
+}

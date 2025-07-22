@@ -1,0 +1,13 @@
+/* Navbar.css */
+.navbar-dark .nav-link,.navbar-brand {
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.navbar-dark .nav-link:hover,.navbar-brand:hover,.social-icons a:hover {
+    color: #ffeea9 !important;
+}
+body { background-color: blanchedalmond; }
+@media screen and (max-width : 992px) {
+    #nav {
+        padding: 2rem;
+    }
+}
